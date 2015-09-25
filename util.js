@@ -1,5 +1,3 @@
-module.exports = util;
-
 var util = {
     buildErr: function(statusCode, mesg, req, err, other) {
         var response = {};
@@ -119,3 +117,5 @@ var util = {
         }
     }
 };
+
+module.exports = util;
